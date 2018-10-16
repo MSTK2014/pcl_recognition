@@ -11,6 +11,7 @@ find_package(PCL 1.7 REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
+include_directories(include/pcl/recognition/3rdparty)
 
 #uncomment the following 4 lines to use the Eigen library
 find_package(cmake_modules REQUIRED)
