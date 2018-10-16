@@ -20,7 +20,7 @@
 #include <tf/transform_broadcaster.h>
 
 #include <pcl_ros/point_cloud.h>
-#include <pcl/ros/conversions.h>
+#include <pcl/conversions.h>
 #include <pcl_ros/transforms.h>
 
 #include <pcl/io/io.h>
